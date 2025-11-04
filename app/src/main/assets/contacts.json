@@ -1,0 +1,103 @@
+[
+  {
+    "contactImage": "logo_redbull",
+    "name": "Max Verstappen",
+    "phoneNumber": "+62 813 4455 2315"
+  },
+  {
+    "contactImage": "logo_redbull",
+    "name": "Yuki Tsunoda",
+    "phoneNumber": "+62 812 3344 5566"
+  },
+  {
+    "contactImage": "logo_mercedes",
+    "name": "George Russell",
+    "phoneNumber": "+62 812 3456 7890"
+  },
+  {
+    "contactImage": "logo_mercedes",
+    "name": "Kimi Antonelli",
+    "phoneNumber": "+62 812 9988 7766"
+  },
+  {
+    "contactImage": "logo_ferrari",
+    "name": "Charles Leclerc",
+    "phoneNumber": "+62 813 5678 9101"
+  },
+  {
+    "contactImage": "logo_ferrari",
+    "name": "Lewis Hamilton",
+    "phoneNumber": "+62 818 8899 0011"
+  },
+  {
+    "contactImage": "logo_mclaren",
+    "name": "Lando Norris",
+    "phoneNumber": "+62 812 1122 3344"
+  },
+  {
+    "contactImage": "logo_mclaren",
+    "name": "Oscar Piastri",
+    "phoneNumber": "+62 815 6677 8899"
+  },
+  {
+    "contactImage": "logo_aston_martin",
+    "name": "Fernando Alonso",
+    "phoneNumber": "+62 819 2233 4455"
+  },
+  {
+    "contactImage": "logo_aston_martin",
+    "name": "Lance Stroll",
+    "phoneNumber": "+62 814 2211 4433"
+  },
+  {
+    "contactImage": "logo_alpine",
+    "name": "Pierre Gasly",
+    "phoneNumber": "+62 811 5566 7788"
+  },
+  {
+    "contactImage": "logo_alpine",
+    "name": "Franco Colapinto",
+    "phoneNumber": "+62 813 3322 5544"
+  },
+  {
+    "contactImage": "logo_williams",
+    "name": "Alexander Albon",
+    "phoneNumber": "+62 815 1122 5566"
+  },
+  {
+    "contactImage": "logo_williams",
+    "name": "Carlos Sainz",
+    "phoneNumber": "+62 817 7788 9900"
+  },
+  {
+    "contactImage": "logo_haas",
+    "name": "Esteban Ocon",
+    "phoneNumber": "+62 812 6677 3355"
+  },
+  {
+    "contactImage": "logo_haas",
+    "name": "Oliver Bearman",
+    "phoneNumber": "+62 819 2233 4455"
+  },
+  {
+    "contactImage": "logo_rb",
+    "name": "Isack Hadjar",
+    "phoneNumber": "+62 814 2211 4433"
+  },
+  {
+    "contactImage": "logo_rb",
+    "name": "Liam Lawson",
+    "phoneNumber": "+62 815 6677 8899"
+  },
+  {
+    "contactImage": "logo_kick_sauber",
+    "name": "Nico Hülkenberg",
+    "phoneNumber": "+62 812 9988 7766"
+  },
+  {
+    "contactImage": "logo_kick_sauber",
+    "name": "Gabriel Bortoleto",
+    "phoneNumber": "+62 812 3344 5566"
+  }
+]
+

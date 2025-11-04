@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Title App -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/instrument_sans_medium"
+        android:gravity="center"
+        android:text="Ujian Tengah Semester"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Profile Picture -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ContactImage"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginVertical="20dp"
+        android:contentDescription="Thumbnail"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_profile"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        app:strokeColor="@color/black_bg"
+        app:strokeWidth="1.5dp" />
+
+    <!-- NIM -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center"
+        android:text="15-2022-166"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <!-- Nama -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/space_grotesk"
+        android:gravity="center"
+        android:text="Muhammad Rizky Akbar"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>

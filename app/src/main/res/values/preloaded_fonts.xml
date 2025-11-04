@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/instrument_sans</item>
+        <item>@font/instrument_sans_medium</item>
+        <item>@font/inter</item>
+        <item>@font/inter_bold</item>
+        <item>@font/inter_medium</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/space_grotesk</item>
+    </array>
+</resources>

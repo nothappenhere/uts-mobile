@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_biodata"
+        android:icon="@drawable/icon_person"
+        android:title="Biodata" />
+
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/icon_phone_filled"
+        android:title="Contacts" />
+
+    <item
+        android:id="@+id/nav_calculator"
+        android:icon="@drawable/icon_calculator"
+        android:title="Calculator" />
+
+    <item
+        android:id="@+id/nav_weather"
+        android:icon="@drawable/icon_weather"
+        android:title="Weather" />
+
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@drawable/icon_article"
+        android:title="Articles" />
+</menu>

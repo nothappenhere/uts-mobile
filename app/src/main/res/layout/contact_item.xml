@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/light_gray"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp">
+
+        <!-- Layout view -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Card Content -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Image  -->
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/ContactImage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:contentDescription="Thumbnail"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_sf25"
+                    app:shapeAppearanceOverlay="@style/CircularImageView" />
+
+                <!-- Content Layout -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/IconCall"
+                    android:layout_toEndOf="@id/ContactImage"
+                    android:orientation="vertical"
+                    tools:ignore="NotSibling">
+
+                    <!-- Row 1 -->
+                    <TextView
+                        android:id="@+id/ContactName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/instrument_sans_medium"
+                        android:text="Lorem ipsum dolor."
+                        android:textColor="@color/black_bg"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <!-- Row 2 -->
+                    <TextView
+                        android:id="@+id/ContactPhoneNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/space_grotesk"
+                        android:text="Lorem ipsum dolor sit amet."
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <!-- Icon -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        app:cardBackgroundColor="@color/cool_gray"
+                        app:cardCornerRadius="100dp"
+                        app:cardElevation="0dp">
+
+                        <ImageView
+                            android:id="@+id/IconCall"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="10dp"
+                            android:alpha="0.75"
+                            android:contentDescription="Icon"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/icon_phone_outgoing"
+                            app:tint="@color/black" />
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/cool_gray"
+                        app:cardCornerRadius="100dp"
+                        app:cardElevation="0dp">
+
+                        <ImageView
+                            android:id="@+id/IconMessage"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="10dp"
+                            android:alpha="0.75"
+                            android:backgroundTint="@color/aqua_green"
+                            android:contentDescription="Icon"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/icon_message_circle_more"
+                            app:tint="@color/black" />
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
