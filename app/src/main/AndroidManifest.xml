@@ -19,9 +19,9 @@
             android:exported="false"
             tools:ignore="Instantiatable" /> <!-- Splash Screen -->
         <activity
-            android:name=".ui.fragment.SplashActivity"
+            android:name=".ui.activity.SplashActivity"
             android:exported="true"
-            android:theme="@style/Theme.UTSApp.NoActionBar"> <!-- tambahkan theme di sini -->
+            android:theme="@style/Theme.UTSApp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

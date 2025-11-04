@@ -1,4 +1,4 @@
-package com.example.utsapp.ui.fragment
+package com.example.utsapp.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,7 +6,6 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.example.utsapp.R
-import com.example.utsapp.ui.activity.MainActivity
 
 class SplashActivity : AppCompatActivity() {
 	override fun onCreate(savedInstanceState : Bundle?) {
