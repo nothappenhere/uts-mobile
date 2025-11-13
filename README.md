@@ -1,10 +1,10 @@
-# 📱 Android UTS App
+# Android UTS App
 
 This Android application was developed as part of the Mid-Term Exam (UTS) for the Mobile Programming course.
 It showcases multiple UI components and basic functionality implemented using **Kotlin** and **Fragment Navigation** in Android Studio.
 
 
-## ✨ Features
+## Features
 
 | Screen / Module   | Description                                                                      |
 | ----------------- | -------------------------------------------------------------------------------- |
@@ -15,7 +15,7 @@ It showcases multiple UI components and basic functionality implemented using **
 | 📰 **News**       | Static news list with images and descriptions using **RecyclerView**             |
 
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component       | Technology        |
 | --------------- | ----------------- |
@@ -26,7 +26,7 @@ It showcases multiple UI components and basic functionality implemented using **
 | Version Control | Git & GitHub      |
 
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 app/
@@ -48,7 +48,7 @@ app/
 ```
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
@@ -67,18 +67,13 @@ git clone https://github.com/nothappenhere/uts-mobile.git
 4. Run the project on an emulator or physical device
 
 
-## 🖼 App Icon & Branding
-
-This project includes a custom-designed monogram logo “MRA” in a minimalist maroon theme, created specifically for this application.
-
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 For major updates, please open an issue first to discuss proposed changes.
 
 
-## 📄 License
+## License
 
 This project is intended for **personal and educational purposes** only.
 You are free to modify and learn from it.
